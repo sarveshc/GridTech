@@ -1,0 +1,1 @@
+# GridTech Static Site\n\nInstall deps, run `npm run dev`. Build with `npm run build` (exports to `out/`).\nGenerated 2025-10-01T07:57:02.269186\n

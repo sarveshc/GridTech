@@ -1,0 +1,1 @@
+export default function Footer(){return (<footer className='mt-16 border-t border-slate-200/40 dark:border-white/10'><div className='container py-10 text-sm flex items-center justify-between'><span>© 2025 GridTech</span><a href='mailto:hello@gridtech.in' className='underline'>hello@gridtech.in</a></div></footer>)}
