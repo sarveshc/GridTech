@@ -8,7 +8,7 @@ export default function Nav(){
   return (
     <header className="sticky top-0 z-30 backdrop-blur bg-white/70 dark:bg-slate-900/70 border-b border-slate-200/40 dark:border-white/10">
       <div className="container flex items-center justify-between h-16">
-        <Link href="/" className="flex items-center gap-3"><img src="/logo.svg" className="h-8 w-8"/><span className="font-bold text-xl">GridTech</span></Link>
+        <Link href="/" className="flex items-center gap-3"><img src="/logo.svg" className="h-44 w-44"/><span className="font-bold text-xl"></span></Link>
         <nav className={`${open?'flex':'hidden'} md:flex items-center gap-6`}>
           <Link href="/services">Services</Link>
           <Link href="/expertise">Expertise</Link>

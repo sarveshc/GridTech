@@ -9,8 +9,24 @@ export default function Page(){
         <Link href="/services" className="px-6 py-3 rounded-xl border">Explore Services</Link>
       </div>
       <ul className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4 text-sm opacity-90">
-        <li>✔ Web Applications</li><li>✔ Mobile Apps</li><li>✔ Cloud Ops</li><li>✔ IT Division Mgmt</li>
-      </ul>
+  <li>
+    ✔ <strong>Web Applications</strong><br />
+    <span>Scalable, responsive & SEO-friendly<br />Built with Next.js, React & .NET Core</span>
+  </li>
+  <li>
+    ✔ <strong>Mobile Apps</strong><br />
+    <span>Cross-platform iOS & Android<br />Flutter & React Native experts</span>
+  </li>
+  <li>
+    ✔ <strong>Cloud Ops</strong><br />
+    <span>AWS & Azure management<br />Automation, CI/CD & monitoring</span>
+  </li>
+  <li>
+    ✔ <strong>IT Division Mgmt</strong><br />
+    <span>Governance & compliance<br />Security, vendors & SLA tracking</span>
+  </li>
+</ul>
+
     </section>
   );
 }
